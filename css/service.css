@@ -1,0 +1,228 @@
+/* service_box start */
+
+.service_box {
+    padding-bottom: 30px;
+    background-color: #F5F5F5;
+}
+
+/* service_box end */
+
+/* service_swiper start */
+
+.service_swiper_head {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.service_swiper_head a, .service_swiper_head span {
+    float: left;
+    color: #757575;
+}
+
+.service_swiper_head span {
+    margin: 0 8px;
+}
+
+.service_swiper_body {
+    position: relative;
+}
+
+.service_swiper_body ol {
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    margin-left: -30px;
+    width: 60px;
+    height: 10px;
+}
+
+.service_swiper_body ol li {
+    float: left;
+    width: 6px;
+    height: 6px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #998F86;
+}
+
+.service_swiper_body ol li.current {
+    width: 6px;
+    height: 6px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #998F86;
+}
+
+/* service_swiper end */
+
+/* service_area start */
+
+.service_area h2 {
+    height: 65px;
+    margin-top: 65px;
+    font-size: 30px;
+    color: #666;
+    text-align: center;
+}
+
+.service_area ul {
+    width: 1240px;
+}
+
+.service_area ul li {
+    float: left;
+    width: 296px;
+    margin: 0 14px 14px 0;
+    background-color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.service_area ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.self_area ul li {
+    height: 277px;
+}
+
+.self_area ul li img {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.self_area ul li:hover img {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.self_area ul li:nth-child(1) {
+    background-image: url(../images/service/selfservice_icon_01.png);
+}
+
+.self_area ul li:nth-child(2) {
+    background-image: url(../images/service/selfservice_icon_02.png);
+}
+
+.self_area ul li:nth-child(3) {
+    background-image: url(../images/service/selfservice_icon_03.png);
+}
+
+.self_area ul li:nth-child(4) {
+    background-image: url(../images/service/selfservice_icon_04.png);
+}
+
+.self_area ul li:nth-child(5) {
+    background-image: url(../images/service/selfservice_icon_05.png);
+}
+
+.self_area ul li:nth-child(6) {
+    background-image: url(../images/service/selfservice_icon_06.png);
+}
+
+.self_area ul li:nth-child(7) {
+    background-image: url(../images/service/selfservice_icon_07.png);
+}
+
+.self_area ul li:nth-child(8) {
+    background-image: url(../images/service/selfservice_icon_08.png);
+}
+
+.self_area ul li img {
+    margin-top: 80px;
+}
+
+.self_area ul li h3 {
+    height: 46px;
+    line-height: 46px;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.self_area ul li p {
+    color: #757575;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.goods ul li {
+    height: 288px;
+}
+
+.goods ul li img {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.goods ul li:hover img {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.goods ul li img {
+    margin-top: 50px;
+}
+
+.goods ul li p {
+    color: #666;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.center ul {
+    background-color: #fff;
+}
+
+.center ul li {
+    float: left;
+    margin: 0;
+    width: 50%;
+}
+
+.center ul li:nth-child(1) img {
+    display: block;
+    width: 100%;
+}
+
+.center ul li:nth-child(2) h4 {
+    height: 60px;
+    color: #000;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.center ul li:nth-child(2) p {
+    font-size: 16px;
+}
+
+.center ul li:nth-child(2) div {
+    margin: 38px 56px 50px;
+}
+
+.center ul li:nth-child(2) dl {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.center ul li:nth-child(2) a {
+    font-size: 16px;
+}
+
+/* service_area end */
